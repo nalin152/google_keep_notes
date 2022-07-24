@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <div class="appName">NotesApp</div>
+      <div class="home"><a href="index.html">Home</a></div>
+      <input type="text" placeholder="Search.." class="search" id="searchTxt"/>
+    </nav>
+
+    <form class="addNote-form">
+      <label for="AddNote" class="addNote-label">Add Your Notes</label><br />
+      <textarea class="addNote-text" id="addTxt" cols="30" rows="10"></textarea>
+      <button class="btn" id="addBtn" type="button">Add Note</button>
+    </form>
+    <h1 style="margin-left: 25vw; margin-top: 2rem;">Your Notes:</h1> 
+    <div class="snContainer" id="notes"></div>    
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>

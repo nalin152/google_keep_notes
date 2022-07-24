@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(53, 58, 64);
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.appName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-right: 2rem;
+  cursor: default;
+}
+
+.home {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  margin-right: 60%;
+  cursor: pointer;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.35rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home:hover {
+  background-color: rgb(14, 14, 12);
+}
+.search {
+  border-style: none;
+  height: 1.5rem;
+  width: 15rem;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  padding: 0.45rem;
+}
+
+.addNote-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 25vw;
+  
+}
+.addNote-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.addNote-text {
+  height: 10rem;
+  width: 50vw;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.btn {
+  width: 10rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  border-style: none;
+  background-color: rgb(57, 88, 173);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(3, 3, 83);
+}
+
+.snContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.savedNotes{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+
+}
+.snText{
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.snLabel{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btnLabel{
+  width: 5rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  color: white;
+  border-style: none;
+  background-color: rgb(57, 88, 173);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
